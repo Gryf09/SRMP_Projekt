@@ -10,7 +10,7 @@ disp('Porównanie algorytmów CFAR 2D')
 while(1)
    N_guard = input('Liczba komórek ochronnych: ');
    N_ref = input('Liczba komórek referencyjnych: ');
-   T = input('Sta³a T do wyznaczania progu: ');
+   T = input('Sta³a T do wyznaczania progu (1:10): ');
    str = input('Wybierz algorytm (CA, SO, GO, OS): ','s');
    switch str
        case 'CA'
